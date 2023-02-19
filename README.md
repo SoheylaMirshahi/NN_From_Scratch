@@ -5,7 +5,7 @@ Net work will classify individuals as either "obese" or "not obese" based on the
 **Usage**
 To use the code, simply clone the repository and run the neural_network.py file. The program generates a random dataset of 300 individuals with their weights and heights, and then trains a neural network to classify them as "obese" or "not obese" based on a threshold BMI value of 25.
 
-The example neural network has a 2-4-1 architecture, meaning it has two input nodes, four hidden nodes, and one output node. The activation function used in the hidden layer is the hyperbolic tangent (tanh) function, and the output layer uses a linear activation function.
+The example neural network has a 2-4-1 architecture, meaning it has two input nodes, four hidden nodes, and one output node. The activation function used in the hidden layer is the hyperbolic tangent (tanh) function.
 
 The program outputs the total cost of the network after training on the entire dataset. The cost is defined as the sum of the squared errors between the predicted and actual output values, divided by two.
 
